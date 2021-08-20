@@ -1,4 +1,5 @@
 Welcome to helloWorld's documentation
 ======================================
 
-[weyl](/docs/weyl.md)
+- weyl.md
+- Lecture 1.md
