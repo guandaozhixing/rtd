@@ -41,7 +41,7 @@ release = '1.0.0'
 extensions = [
     'sphinx_rtd_theme',
     'sphinx.ext.autodoc',
-    'sphinx.ext.viewcode',
+    'sphinx.ext.',
     'sphinx.ext.githubpages',
 ]
 
@@ -52,8 +52,8 @@ templates_path = ['_templates']
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-source_suffix = '.md'
-
+source_suffix =['.rst', '.md']
+viewcode
 # The master toctree document.
 master_doc = 'index'
 
@@ -86,16 +86,16 @@ html_theme_options = {
     #'analytics_anonymize_ip': False,
     'logo_only': False,
     'display_version': True,
-    'prev_next_buttons_location': 'bottom',
-    'style_external_links': False,
-    'vcs_pageview_mode': '',
-    'style_nav_header_background': 'white',
+    #'prev_next_buttons_location': 'bottom',
+    #'style_external_links': False,
+    #'vcs_pageview_mode': '',
+    #'style_nav_header_background': 'white',
     # Toc options
-    'collapse_navigation': True,
-    'sticky_navigation': True,
-    'navigation_depth': 4,
-    'includehidden': True,
-    'titles_only': False
+    #'collapse_navigation': True,
+    #'sticky_navigation': True,
+    #'navigation_depth': 4,
+    #'includehidden': True,
+    #'titles_only': False
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme
