@@ -52,8 +52,8 @@ templates_path = ['_templates']
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-source_suffix =['.md']
-viewcode
+source_suffix ='.md
+
 # The master toctree document.
 master_doc = 'index'
 
@@ -81,11 +81,11 @@ pygments_style = None
 #html_theme = 'alabaster'
 html_theme = 'sphinx_rtd_theme'
 
-html_theme_options = {
+#html_theme_options = {
     #'analytics_id': 'UA-XXXXXXX-1',  #  Provided by Google in your dashboard
     #'analytics_anonymize_ip': False,
-    'logo_only': False,
-    'display_version': True,
+    #'logo_only': False,
+    #'display_version': True,
     #'prev_next_buttons_location': 'bottom',
     #'style_external_links': False,
     #'vcs_pageview_mode': '',
@@ -96,7 +96,7 @@ html_theme_options = {
     #'navigation_depth': 4,
     #'includehidden': True,
     #'titles_only': False
-}
+#}
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -282,7 +282,7 @@ html_context['downloads'].append( ('epub', '/' +REPO_NAME+ '/' +current_language
 ##########################
  
 html_context['display_github'] = True
-html_context['github_user'] = 'maltfield'
+html_context['github_user'] = 'PHZZ'
 html_context['github_repo'] = 'rtd-github-pages'
 html_context['github_version'] = 'master/docs/'
  
