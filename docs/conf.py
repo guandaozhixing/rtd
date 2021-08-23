@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 #
+# https://github.com/readthedocs/recommonmark
+# https://github.com/goonoo/sphinx-markdown-sample
+# 
 # Configuration file for the Sphinx documentation builder.
 #
 # This file does only contain a selection of the most common options. For a
